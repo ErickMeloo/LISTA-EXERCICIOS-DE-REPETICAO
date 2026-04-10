@@ -1,5 +1,5 @@
 algoritmo "QUESTAO5"
-//Esse algoritmo imprime uma votação
+//Esse algoritmo imprime uma votaÃ§Ã£o
 var
    votar, can1, can2, can3, totalV : inteiro
 inicio
@@ -12,24 +12,24 @@ inicio
       leia(votar)
       escolha votar
       caso 0
-         escreval("Votação encerrada!")
+         escreval("VotaÃ§Ã£o encerrada!")
       caso 1
          can1 <- can1 + 1
-         escreval("Votação concluída a favor do candidato A")
+         escreval("VotaÃ§Ã£o concluÃ­da a favor do candidato A")
       caso 2
          can2 <- can2 + 1
-         escreval("Votação concluída a favor do candidato B")
+         escreval("VotaÃ§Ã£o concluÃ­da a favor do candidato B")
       caso 3
          can3 <- can3 + 1
-         escreval("Votação concluída a favor do candidato C")
+         escreval("VotaÃ§Ã£o concluÃ­da a favor do candidato C")
       outrocaso
-         escreval("OPÇÃO INVÁLIDA")
+         escreval("OPÃ‡ÃƒO INVÃLIDA")
       fimescolha
    ate votar = 0
    Limpatela
    totalV <- can1 + can2 + can3
    escreval("--------------------------------------------")
-   escreval("O total de votos nessa eleição foi de - ",totalV)
+   escreval("O total de votos nessa eleiÃ§Ã£o foi de - ",totalV)
    escreval("--------------------------------------------")
    escreval("Total de votos para o Candidato A - ",can1)
    escreval("Total de votos para o Candidato B - ",can2)
